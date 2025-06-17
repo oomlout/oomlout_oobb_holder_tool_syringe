@@ -1,7 +1,7 @@
 classification: oobb
 color: syringe
-description_extra: tool_syringe_100_ml_1_multiple_extra
-description_main: 5_width_4_height_3_mm_depth
+description_extra: tip_cover_extra
+description_main: 1_width_3_height_18_mm_depth
 full_rotations:
 - 0
 - 0
@@ -10,19 +10,19 @@ full_shift:
 - 0
 - 0
 - 0
-id: oobb_part_holder_tool_syringe_5_width_4_height_3_mm_depth_tool_syringe_100_ml_1_multiple_extra
-id_oobb: oobb_part_oomlout_oobb_part_holder_tool_syringe_holder_tool_5_width_4_height_3_mm_depth_tool_syringe_100_ml_1_multiple_extra
+id: oobb_part_holder_tool_syringe_1_width_3_height_18_mm_depth_tip_cover_extra
+id_oobb: oobb_part_oomlout_oobb_part_holder_tool_syringe_holder_tool_1_width_3_height_18_mm_depth_tip_cover_extra
 kwargs:
-  extra: tool_syringe_100_ml_1_multiple
+  extra: tip_cover
   filter: ''
-  height: 4
+  height: 3
   modes:
   - 3dpr
   navigation: false
   oomp_classification: oobb
   oomp_color: syringe
-  oomp_description_extra: tool_syringe_100_ml_1_multiple_extra
-  oomp_description_main: 5_width_4_height_3_mm_depth
+  oomp_description_extra: tip_cover_extra
+  oomp_description_main: 1_width_3_height_18_mm_depth
   oomp_manufacturer: ''
   oomp_mode: oobb
   oomp_part_number: ''
@@ -30,9 +30,9 @@ kwargs:
   oomp_size: holder_tool
   oomp_type: part
   overwrite: true
-  thickness: 3
+  thickness: 18
   type: oomlout_oobb_part_holder_tool_syringe_holder_tool
-  width: 5
+  width: 1
 manufacturer: ''
 name: holder_tool
 part_number: ''
