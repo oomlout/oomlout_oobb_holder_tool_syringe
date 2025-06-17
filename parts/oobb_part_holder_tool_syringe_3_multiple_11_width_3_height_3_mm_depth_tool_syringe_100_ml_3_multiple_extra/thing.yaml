@@ -1,0 +1,1319 @@
+classification: oobb
+color: ''
+description_extra: tool_syringe_100_ml_3_multiple_extra
+description_main: 11_width_3_height_3_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: oobb_part_holder_tool_syringe_3_multiple_11_width_3_height_3_mm_depth_tool_syringe_100_ml_3_multiple_extra
+id_oobb: oobb_part_oomlout_oobb_holder_tool_syringe_holder_tool_syringe_3_multiple_11_width_3_height_3_mm_depth_tool_syringe_100_ml_3_multiple_extra
+kwargs:
+  extra: tool_syringe_100_ml_3_multiple
+  filter: ''
+  height: 3
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_classification: oobb
+  oomp_color: ''
+  oomp_description_extra: tool_syringe_100_ml_3_multiple_extra
+  oomp_description_main: 11_width_3_height_3_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: oobb
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: holder_tool_syringe_3_multiple
+  oomp_type: part
+  overwrite: true
+  thickness: 3
+  type: oomlout_oobb_holder_tool_syringe_holder_tool_syringe_3_multiple
+  width: 11
+manufacturer: ''
+name: holder_tool_syringe_3_multiple
+part_number: ''
+project_name: C:\gh\oomlout_oobb_holder_tool_syringe
+size: holder_tool_syringe_3_multiple
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 3
+      extra: tool_syringe_100_ml_3_multiple
+      height: 3
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 164
+      - 44
+      - 3
+      type: positive
+      width: 11
+  - - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id001
+        - -75.0
+        - -15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id001
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id001
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id002
+        - -75.0
+        - 0.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id002
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id002
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id003
+        - -75.0
+        - 15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id003
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id003
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id004
+        - 75.0
+        - -15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id004
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id004
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id005
+        - 75.0
+        - 0.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id005
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id005
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id006
+        - 75.0
+        - 15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id006
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id006
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id007
+        - -75.0
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id007
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id007
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id008
+        - -75.0
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id008
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id008
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id009
+        - -75.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id009
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id009
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id010
+        - -75.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id010
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id010
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id011
+        - -75.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id011
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id011
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id012
+        - 75.0
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id012
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id012
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id013
+        - 75.0
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id013
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id013
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id014
+        - 75.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id014
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id014
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id015
+        - 75.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id015
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id015
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id016
+        - 75.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id016
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id016
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id017
+        - -75.0
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id017
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id017
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id018
+        - -75.0
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id018
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id018
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id019
+        - -75.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id019
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id019
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id020
+        - -75.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id020
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id020
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id021
+        - -75.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id021
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id021
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id022
+        - 75.0
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id022
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id022
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id023
+        - 75.0
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id023
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id023
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id024
+        - 75.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id024
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id024
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id025
+        - 75.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id025
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id025
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id026
+        - 75.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id026
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id026
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id027
+        - -75.0
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id027
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id027
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id028
+        - -75.0
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id028
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id028
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id029
+        - -75.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id029
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id029
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id030
+        - -75.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id030
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id030
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id031
+        - -75.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id031
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id031
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id032
+        - 75.0
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id032
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id032
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id033
+        - 75.0
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id033
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id033
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id034
+        - 75.0
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id034
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id034
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id035
+        - 75.0
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id035
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id035
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 3
+        h: 3
+        inclusion: laser
+        m: ''
+        pos: &id036
+        - 75.0
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 3dpr
+        m: ''
+        pos: *id036
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 3
+        h: 3
+        inclusion: 'true'
+        m: ''
+        pos: *id036
+        r: 1.5
+        shape: cylinder
+        type: negative
+  - - depth: 3
+      extra: tool_syringe_100_ml_3_multiple
+      h: 3
+      height: 3
+      inclusion: laser
+      m: '#'
+      pos: &id037
+      - -45.0
+      - 0
+      - 0.0
+      r: 20.0
+      radius: 20.0
+      shape: cylinder
+      type: negative
+      width: 11
+    - depth: 3
+      extra: tool_syringe_100_ml_3_multiple
+      h: 3
+      height: 3
+      inclusion: 3dpr
+      m: '#'
+      pos: *id037
+      r: 20.0
+      shape: cylinder
+      type: negative
+      width: 11
+    - depth: 3
+      extra: tool_syringe_100_ml_3_multiple
+      h: 3
+      height: 3
+      inclusion: 'true'
+      m: '#'
+      pos: *id037
+      r: 20.0
+      radius: 20.0
+      shape: cylinder
+      type: negative
+      width: 11
+  - - depth: 3
+      extra: tool_syringe_100_ml_3_multiple
+      h: 3
+      height: 3
+      inclusion: laser
+      m: '#'
+      pos: &id038
+      - 0.0
+      - 0
+      - 0.0
+      r: 20.0
+      radius: 20.0
+      shape: cylinder
+      type: negative
+      width: 11
+    - depth: 3
+      extra: tool_syringe_100_ml_3_multiple
+      h: 3
+      height: 3
+      inclusion: 3dpr
+      m: '#'
+      pos: *id038
+      r: 20.0
+      shape: cylinder
+      type: negative
+      width: 11
+    - depth: 3
+      extra: tool_syringe_100_ml_3_multiple
+      h: 3
+      height: 3
+      inclusion: 'true'
+      m: '#'
+      pos: *id038
+      r: 20.0
+      radius: 20.0
+      shape: cylinder
+      type: negative
+      width: 11
+  - - depth: 3
+      extra: tool_syringe_100_ml_3_multiple
+      h: 3
+      height: 3
+      inclusion: laser
+      m: '#'
+      pos: &id039
+      - 45.0
+      - 0
+      - 0.0
+      r: 20.0
+      radius: 20.0
+      shape: cylinder
+      type: negative
+      width: 11
+    - depth: 3
+      extra: tool_syringe_100_ml_3_multiple
+      h: 3
+      height: 3
+      inclusion: 3dpr
+      m: '#'
+      pos: *id039
+      r: 20.0
+      shape: cylinder
+      type: negative
+      width: 11
+    - depth: 3
+      extra: tool_syringe_100_ml_3_multiple
+      h: 3
+      height: 3
+      inclusion: 'true'
+      m: '#'
+      pos: *id039
+      r: 20.0
+      radius: 20.0
+      shape: cylinder
+      type: negative
+      width: 11
+  components_objects:
+  - depth: 3
+    extra: tool_syringe_100_ml_3_multiple
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: holder_tool_syringe_3_multiple
+    oomp_type: part
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    save_type: none
+    shape: oobb_plate
+    thickness: 3
+    type: positive
+    width: 11
+  - both_holes: true
+    depth: 3
+    extra: tool_syringe_100_ml_3_multiple
+    filter: ''
+    height: 3
+    holes:
+    - top
+    - bottom
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: holder_tool_syringe_3_multiple
+    oomp_type: part
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    save_type: none
+    shape: oobb_holes
+    thickness: 3
+    type: p
+    width: 11
+  - depth: 3
+    extra: tool_syringe_100_ml_3_multiple
+    filter: ''
+    height: 3
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: holder_tool_syringe_3_multiple
+    oomp_type: part
+    overwrite: true
+    pos:
+    - -45.0
+    - 0
+    - 1.5
+    radius: 20.0
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 3
+    type: negative
+    width: 11
+  - depth: 3
+    extra: tool_syringe_100_ml_3_multiple
+    filter: ''
+    height: 3
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: holder_tool_syringe_3_multiple
+    oomp_type: part
+    overwrite: true
+    pos:
+    - 0.0
+    - 0
+    - 1.5
+    radius: 20.0
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 3
+    type: negative
+    width: 11
+  - depth: 3
+    extra: tool_syringe_100_ml_3_multiple
+    filter: ''
+    height: 3
+    m: '#'
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: holder_tool_syringe_3_multiple
+    oomp_type: part
+    overwrite: true
+    pos:
+    - 45.0
+    - 0
+    - 1.5
+    radius: 20.0
+    save_type: none
+    shape: oobb_cylinder
+    thickness: 3
+    type: negative
+    width: 11
+  components_string:
+  - oobb_plate_shape_positive_type_3_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_11_width_3_height_3_thickness_oobb_oomp_classification_part_oomp_type_holder_tool_syringe_3_multiple_oomp_size_tool_syringe_100_ml_3_multiple_extra
+  - oobb_holes_shape_p_type_3_depth_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_11_width_3_height_3_thickness_oobb_oomp_classification_part_oomp_type_holder_tool_syringe_3_multiple_oomp_size_tool_syringe_100_ml_3_multiple_extra_true_both_holes_'top'_'bottom'_holes
+  - oobb_cylinder_shape_negative_type_3_depth_-45.0_0_1.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_11_width_3_height_3_thickness_oobb_oomp_classification_part_oomp_type_holder_tool_syringe_3_multiple_oomp_size_tool_syringe_100_ml_3_multiple_extra_20.0_radius
+  - oobb_cylinder_shape_negative_type_3_depth_0.0_0_1.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_11_width_3_height_3_thickness_oobb_oomp_classification_part_oomp_type_holder_tool_syringe_3_multiple_oomp_size_tool_syringe_100_ml_3_multiple_extra_20.0_radius
+  - oobb_cylinder_shape_negative_type_3_depth_45.0_0_1.5_pos_none_save_type_false_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_11_width_3_height_3_thickness_oobb_oomp_classification_part_oomp_type_holder_tool_syringe_3_multiple_oomp_size_tool_syringe_100_ml_3_multiple_extra_20.0_radius
+  description: oomlout oobb holder tool syringe holder tool syringe 3 multiple 11x3x3
+  description_extra: tool_syringe_100_ml_3_multiple_extra
+  description_main: 11_width_3_height_3_mm_depth
+  extra: tool_syringe_100_ml_3_multiple
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_holder_tool_syringe_holder_tool_syringe_3_multiple_11_width_3_height_3_mm_depth_tool_syringe_100_ml_3_multiple_extra
+  height: 3
+  height_mm: 44
+  id: oobb_part_oomlout_oobb_holder_tool_syringe_holder_tool_syringe_3_multiple_11_width_3_height_3_mm_depth_tool_syringe_100_ml_3_multiple_extra
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_holder_tool_syringe_holder_tool_syringe_3_multiple/11_width_3_height_3_mm_depth/tool_syringe_100_ml_3_multiple_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_holder_tool_syringe_holder_tool_syringe_3_multiple_11_03_03_ex_tool_syringe_100_ml_3_multiple
+  manufacturer: ''
+  name: Oobb Part Oomlout Oobb Holder Tool Syringe Holder Tool Syringe 3 Multiple
+    11 Width 3 Height 3 mm Depth Tool Syringe 100 Ml 3 Multiple Extra
+  name_short: Oomlout Oobb Holder Tool Syringe Holder
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_holder_tool_syringe_holder_tool_syringe_3_multiple
+  thickness: 3
+  thickness_mm: 3
+  type: part
+  width: 11
+  width_mm: 164
+type: part

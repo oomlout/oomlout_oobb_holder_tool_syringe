@@ -20,8 +20,8 @@ def make_scad(**kwargs):
         typ = "fast"
         #typ = "manual"
 
-    oomp_mode = "project"
-    #oomp_mode = "oobb"
+    #oomp_mode = "project"
+    oomp_mode = "oobb"
 
     test = False
     #test = True
@@ -118,21 +118,41 @@ def make_scad(**kwargs):
         part_default["full_shift"] = [0, 0, 0]
         part_default["full_rotations"] = [0, 0, 0]
         
-        part = copy.deepcopy(part_default)
-        p3 = copy.deepcopy(kwargs)
-        p3["width"] = 3
-        p3["height"] = 3
-        #p3["thickness"] = 6
-        #p3["extra"] = ""
-        part["kwargs"] = p3
-        nam = "base"
-        part["name"] = nam
-        if oomp_mode == "oobb":
-            p3["oomp_size"] = nam
-        if not test:
-            pass
-            #parts.append(part)
 
+        #1_multiple
+        heights = [3,4]        
+        for hei in heights:
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+            p3["width"] = 5
+            p3["height"] = hei
+            p3["thickness"] = 3
+            p3["extra"] = "tool_syringe_100_ml_1_multiple"
+            part["kwargs"] = p3
+            nam = "holder_tool_syringe"
+            part["name"] = nam
+            if oomp_mode == "oobb":
+                p3["oomp_size"] = nam
+            if not test:
+                pass
+                parts.append(part)
+
+        #3_multiple#
+        heights = [3,4]
+        for hei in heights:
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+            p3["width"] = 11
+            p3["height"] = hei
+            p3["thickness"] = 3
+            p3["extra"] = "tool_syringe_100_ml_3_multiple"
+            part["kwargs"] = p3
+            nam = "holder_tool_syringe_3_multiple"
+            part["name"] = nam
+            if oomp_mode == "oobb":
+                p3["oomp_size"] = nam
+            if not test:
+                parts.append(part)
 
     kwargs["parts"] = parts
 
@@ -177,11 +197,46 @@ def get_base(thing, **kwargs):
     p3["shape"] = f"oobb_holes"
     p3["both_holes"] = True  
     p3["depth"] = depth
-    p3["holes"] = "perimeter"
+    p3["holes"] = ["top","bottom"]
     #p3["m"] = "#"
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
+
+    #if 1_multple in extra
+    #add holders
+    if True:
+        radius_holder = 40/2
+        #if 1_multiple in extra
+        if "1_multiple" in extra:
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "negative"
+            p3["shape"] = f"oobb_cylinder"
+            p3["depth"] = depth
+            p3["radius"] = radius_holder
+            p3["m"] = "#"
+            pos1 = copy.deepcopy(pos)     
+            pos1[2] += depth/2    
+            p3["pos"] = pos1
+            oobb_base.append_full(thing,**p3)
+        #if 3_multiple in extra
+        elif "3_multiple" in extra:
+            repeats = 3
+            start = -(repeats-1)/2 * 45
+            shift = 45
+            for i in range(repeats):
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = "negative"
+                p3["shape"] = f"oobb_cylinder"
+                p3["depth"] = depth
+                p3["radius"] = radius_holder
+                p3["m"] = "#"
+                pos1 = copy.deepcopy(pos)     
+                pos1[0] += start + i * shift
+                pos1[2] += depth/2    
+                p3["pos"] = pos1
+                oobb_base.append_full(thing,**p3)
+
 
     if prepare_print:
         #put into a rotation object
