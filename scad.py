@@ -173,6 +173,23 @@ def make_scad(**kwargs):
             if not test:
                 parts.append(part)
 
+        #tip lid
+        for hei in heights:
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+            p3["width"] = 1.5
+            p3["height"] = 1.5
+            p3["thickness"] = 15
+            p3["extra"] = "tip_lid"
+            part["kwargs"] = p3
+            nam = "holder_tool"
+            part["name"] = nam
+            if oomp_mode == "oobb":
+                pass
+                #p3["oomp_size"] = nam
+            if not test:
+                parts.append(part)
+
     kwargs["parts"] = parts
 
     scad_help.make_parts(**kwargs)
@@ -201,6 +218,8 @@ def get_base(thing, **kwargs):
     
     if "tip_cover" in extra:
         get_tip_cover(thing, **kwargs)
+    elif "tip_lid" in extra:
+        get_tip_lid(thing, **kwargs)
     else:
 
         #add plate
@@ -370,6 +389,64 @@ def get_tip_cover(thing, **kwargs):
             p3["pos"] = pos1
             #p3["m"] = "#"
             oobb_base.append_full(thing,**p3)
+
+def get_tip_lid(thing, **kwargs):
+
+    prepare_print = kwargs.get("prepare_print", False)
+    width = kwargs.get("width", 1)
+    height = kwargs.get("height", 1)
+    depth = kwargs.get("thickness", 3)                    
+    rot = kwargs.get("rot", [0, 0, 0])
+    pos = kwargs.get("pos", [0, 0, 0])
+    extra = kwargs.get("extra", "")
+    
+    
+    if True:
+
+        #add plate
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "positive"
+        p3["shape"] = f"oobb_plate"            
+        p3["depth"] = depth
+        #p3["holes"] = True         uncomment to include default holes
+        #p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)         
+        p3["pos"] = pos1
+        oobb_base.append_full(thing,**p3)
+        
+        #add holes seperate
+        p3 = copy.deepcopy(kwargs)
+        p3["type"] = "p"
+        p3["shape"] = f"oobb_holes"
+        p3["both_holes"] = True  
+        p3["depth"] = depth
+        p3["holes"] = ["left","right"]
+        #p3["m"] = "#"
+        pos1 = copy.deepcopy(pos)         
+        p3["pos"] = pos1
+        #oobb_base.append_full(thing,**p3)
+
+        #if 1_multple in extra
+        #add holders
+        if True:
+            radius_top = 6.5/2
+            radius_bottom = 5.5/2
+            #if 1_multiple in extra
+            pad = 3
+            if True:
+                p3 = copy.deepcopy(kwargs)
+                p3["type"] = "negative"
+                p3["shape"] = f"oobb_cylinder"
+                p3["depth"] = depth-pad
+                p3["radius_2"] = radius_top
+                p3["radius_1"] = radius_bottom
+                p3["m"] = "#"
+                pos1 = copy.deepcopy(pos)     
+                pos1[2] += depth/2   + pad/2
+                p3["pos"] = pos1
+                oobb_base.append_full(thing,**p3)
+
+
 
 if __name__ == '__main__':
     kwargs = {}
